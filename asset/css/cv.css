@@ -51,6 +51,7 @@ h4 {
 
 .content .box-title {
     margin-bottom: 8px;
+    font-size: 0;
 }
 
 .content .job-title,
@@ -58,10 +59,12 @@ h4 {
     display: inline-block;
     font-size: 12px;
     font-weight: 700;
+    width: 50%;
 }
 
 .content .datetime {
-    float: right;
+    /* float: right; */
+    text-align: right;
     margin-top: 4px;
 }
 
