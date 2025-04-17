@@ -5,6 +5,9 @@ body {
     background-color: #ccc;
 }
 
+.menu-lists {
+    text-align: center;
+}
 .cv-page {
     display: flex;
     flex-direction: column;
@@ -51,7 +54,7 @@ h4 {
 
 .content .box-title {
     margin-bottom: 8px;
-    font-size: 0;
+    /* font-size: 0; */
 }
 
 .content .job-title,
@@ -59,12 +62,11 @@ h4 {
     display: inline-block;
     font-size: 12px;
     font-weight: 700;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .content .datetime {
-    /* float: right; */
-    text-align: right;
+    /* text-align: right; */
     margin-top: 4px;
 }
 
@@ -77,4 +79,44 @@ h4 {
 .content .edu-detail {
     font-size: 12px;
     padding-bottom: 8px;
+}
+
+/* Code css Bài tập 2 */
+
+.menu-section {
+    margin-top: 500px;
+}
+
+.menu-section .list-items {
+    height: 74px;
+    font-size: 0;
+    text-align: center;
+    background-color: #3e5cca;
+}
+
+.menu-section .item {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 74px;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.menu-section .item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-section .home-box {
+    background-color: #fff;
+}
+
+.menu-section .home-box a {
+    color: #000;
+}
+
+.background {
+    height: 500px;
+    background-color: #ccc;
 }
